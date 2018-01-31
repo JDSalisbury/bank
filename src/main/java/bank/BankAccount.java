@@ -16,4 +16,9 @@ public class BankAccount {
 		return "Checking";
 	}
 
+	public Double getBalance() {
+		
+		return 100.12;
+	}
+
 }
