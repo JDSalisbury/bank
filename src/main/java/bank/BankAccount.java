@@ -25,8 +25,6 @@ public class BankAccount {
 		return balance;
 	}
 
-	
-
 	public void setAccountNum(String accountNum) {
 		this.accountNum = accountNum;
 	}
@@ -46,7 +44,7 @@ public class BankAccount {
 	}
 
 	public void withdraw(double amountToWithdraw) {
-		balance += amountToWithdraw;
+		balance -= amountToWithdraw;
 		
 	}
 

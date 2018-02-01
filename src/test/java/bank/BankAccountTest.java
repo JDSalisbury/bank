@@ -50,4 +50,6 @@ public class BankAccountTest {
 		Double check = underTest.getBalance();
 		assertEquals(100.00,check,0.001);
 	}
+	
+	
 }
